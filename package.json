@@ -1,0 +1,21 @@
+{
+	"name": "crafity-webserver",
+	"description": "Generic Webserver Configuration",
+	"version": "0.1.0",
+	"author": "Bart Riemens <briemens@crafity.com>",
+	"keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus"],
+	"repository": "git://github.com/crafity/crafity-modules",
+	"main": "./webserver.js",
+	"engines": {
+		"node": "> 0.4.x < 0.7.0"
+	},
+	"scripts" : {
+		"prepublish" : "npm prune"
+	},
+	"dependencies": {
+		"connect-redis": "1.2.0",
+		"express": "2.5.1",
+		"jade": "0.18.0",
+		"stylus": "0.19.3"
+	}
+}

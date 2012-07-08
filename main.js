@@ -4,7 +4,7 @@
  * crafity-webserver - Generic Webserver Configuration
  * Copyright(c) 2011 Crafity
  * Copyright(c) 2011 Bart Riemens
- * Copyright(c) 2011 Galina Slavova
+ * Copyright(c) 2012 Galina Slavova
  * MIT Licensed
  */
 
@@ -21,14 +21,14 @@ var fs = require('crafity-filesystem')
 	, Event = core.Event
 	, objects = core.objects
 
-	, fileServer = require('./fileserver')
-	, stylusFileFilter = require("./fileserver.stylus")
-	, auth = require('./auth')
-	, oauth = require('./oauth')
-	, assests = require('./assests')
-	, State = require('./State')
-	, Encoder = require('./encoder').Encoder
-	, flash = require('./flash')
+	, fileServer = require('./lib/fileserver')
+	, stylusFileFilter = require("./lib/fileserver.stylus.js")
+	, auth = require('./lib/auth')
+	, oauth = require('./lib/oauth')
+	, assests = require('./lib/assests')
+	, State = require('./lib/State')
+	, Encoder = require('./lib/encoder').Encoder
+	, flash = require('./lib/flash')
 
 	, express = require('express')
 	, httpProxy = require('http-proxy')
@@ -39,6 +39,17 @@ var fs = require('crafity-filesystem')
 	, util = require('util')
 	, nib = require('nib')
 	, url = require('url');
+
+/**
+ * Framework name.
+ */
+exports.fullname = 'crafity-webserver';
+
+/**
+ * Framework version.
+ */
+exports.version = '0.0.1';
+
 
 /**
  * Module Functionality

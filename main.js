@@ -11,3 +11,13 @@
  * Module dependencies.
  */
 module.exports = require('./lib/webserver');
+
+/**
+ * Framework name.
+ */
+exports.fullname = 'crafity-webserver';
+
+/**
+ * Framework version.
+ */
+exports.version = '0.0.4';

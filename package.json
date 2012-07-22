@@ -1,7 +1,7 @@
 {
 	"name": "crafity-webserver",
 	"description": "Generic Webserver Configuration",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"author": "Bart Riemens <briemens@crafity.com>",
 	"homepage": "https://github.com/Crafity/crafity-webserver#readme",
 	"keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus"],

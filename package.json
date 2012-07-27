@@ -57,7 +57,6 @@
 		"connect-assetmanager": "0.0.28",
 		"connect-gzip": "0.1.5",
 		"connect-redis": "1.4.0",
-		"everyauth": "0.2.32",
 		"express": "2.5.1", 
 		"http-proxy": "0.8.1",
 		"jade": "0.26.3",

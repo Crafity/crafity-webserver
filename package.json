@@ -48,6 +48,7 @@
 		}
 	],
 	"dependencies": {
+		"crafity-everyauth": "*",
 		"crafity-config": "*",
 		"crafity-core": "*",
 		"crafity-filesystem": "*",

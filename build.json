@@ -1,0 +1,13 @@
+{
+	"files": {
+		"package.json": {
+			"version": "\"version\": \"\\d\\.\\d\\.\\d"
+		},
+		"main.js": {
+			"version": "\\d\\.\\d\\.\\d"
+		},
+		"./lib/webserver.js": {
+			"version": "\\d\\\\&\\.\\d\\\\&\\.\\d"
+		}
+	}
+}

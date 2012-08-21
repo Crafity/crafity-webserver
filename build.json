@@ -5,9 +5,6 @@
 		},
 		"main.js": {
 			"version": "\\d\\.\\d\\.\\d"
-		},
-		"./lib/webserver.js": {
-			"version": "\\d\\\\&\\.\\d\\\\&\\.\\d"
 		}
 	}
 }

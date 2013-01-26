@@ -1,7 +1,7 @@
 {
 	"name": "crafity-webserver",
 	"description": "Generic Webserver Configuration",
-	"version": "0.0.20",
+	"version": "0.0.21",
 	"author": "Bart Riemens <briemens@crafity.com>",
 	"homepage": "https://github.com/Crafity/crafity-webserver#readme",
 	"keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus"],
@@ -56,7 +56,7 @@
 		"crafity-logging": "*",
 		"crafity-resources": "*",
 		"connect-assetmanager": "0.0.28",
-		"connect-gzip": "0.1.5",
+		"crafity-gzip": "*",
 		"connect-redis": "1.4.0",
 		"express": "2.5.1", 
 		"http-proxy": "0.8.1",

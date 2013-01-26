@@ -20,4 +20,4 @@ exports.fullname = 'crafity-webserver';
 /**
  * Framework version.
  */
-exports.version = '0.0.20';
+exports.version = '0.0.21';

@@ -1,4 +1,0 @@
-#!/usr/local/bin/node  
-
-require('./test/package.test');
-//require('./test/crafity.webserver.test');

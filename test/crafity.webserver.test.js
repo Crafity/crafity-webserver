@@ -10,11 +10,11 @@
  * Test dependencies.
  */
 var jstest = require('crafity-jstest')
-	, assert = jstest.assert
-	, context = jstest.createContext()
-	, fs = require('crafity-filesystem')
-	, main = require('../main.js')
-	;
+  , assert = jstest.assert
+  , context = jstest.createContext()
+  , fs = require('crafity-filesystem')
+  , main = require('../main.js')
+  ;
 
 /**
  * The tests

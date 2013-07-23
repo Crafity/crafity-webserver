@@ -1,80 +1,80 @@
 {
-	"name": "crafity-webserver",
-	"description": "Generic Webserver Configuration",
-	"version": "0.1.0",
-	"author": "Bart Riemens <briemens@crafity.com>",
-	"homepage": "https://github.com/Crafity/crafity-webserver#readme",
-	"keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus"],
-	"maintainers": [
-	{
-			"name": "Galina Slavova",
-			"email": "galina@crafity.com",
-			"web": "http://crafity.com/about/galina"
-		},
-		{
-			"name": "Bart Riemens",
-			"email": "briemens@crafity.com",
-			"web": "http://crafity.com/about/bart"
-		}
-	],
-	"contributors": [
-		{
-			"name": "Galina Slavova",
-			"email": "galina@crafity.com",
-			"web": "http://crafity.com/about/galina"
-		},
-		{
-			"name": "Bart Riemens",
-			"email": "briemens@crafity.com",
-			"web": "http://crafity.com/about/bart"
-		}
-	],
-	"main": "./main.js",
-	"directories": {
-		"lib": "lib",
-		"test": "test"
-	},
-	"licenses": [
-		{
-			"type": "The MIT License",
-			"url": "https://github.com/Crafity/crafity-webserver/blob/master/LICENSE"
-		}
-	],
-	"bugs": "https://github.com/Crafity/crafity-webserver/issues",
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/Crafity/crafity-webserver.git"
-		}
-	],
-	"dependencies": {
-		"crafity-everyauth": "~0.3.0",
-		"crafity-config": "~0.1.0",
-		"crafity-core": "~0.1.0",
-		"crafity-filesystem": "~0.1.0",
-		"crafity-jstest": "~0.1.0",
-		"crafity-logging": "~0.1.0",
-		"crafity-resources": "~0.1.0",
-		"connect-assetmanager": "0.0.28",
-		"crafity-gzip": "~0.1.0",
-		"connect-redis": "1.4.0",
-		"express": "2.5.1", 
-		"http-proxy": "0.8.1",
-		"jade": "0.26.3",
-		"mime": "1.2.5",
-		"nib": "0.7.0",
-		"redis": "0.7.2",
-		"stylus": "0.19.3",
-		"validator": "0.4.9",
-		"util": "0.4.9",
-		"url": "0.7.9"
-	},
-	"engines": {
-		"node": "*"
-	},
-	"scripts": {
-		"prepublish": "npm prune",
-		"test": "./runtests"
-	}
+  "name": "crafity-webserver",
+  "description": "Generic Webserver Configuration",
+  "version": "0.1.0",
+  "author": "Bart Riemens <briemens@crafity.com>",
+  "homepage": "https://github.com/Crafity/crafity-webserver#readme",
+  "keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus"],
+  "maintainers": [
+    {
+      "name": "Galina Slavova",
+      "email": "galina@crafity.com",
+      "web": "http://crafity.com/about/galina"
+    },
+    {
+      "name": "Bart Riemens",
+      "email": "briemens@crafity.com",
+      "web": "http://crafity.com/about/bart"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Galina Slavova",
+      "email": "galina@crafity.com",
+      "web": "http://crafity.com/about/galina"
+    },
+    {
+      "name": "Bart Riemens",
+      "email": "briemens@crafity.com",
+      "web": "http://crafity.com/about/bart"
+    }
+  ],
+  "main": "./main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "https://github.com/Crafity/crafity-webserver/blob/master/LICENSE"
+    }
+  ],
+  "bugs": "https://github.com/Crafity/crafity-webserver/issues",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Crafity/crafity-webserver.git"
+    }
+  ],
+  "dependencies": {
+    "crafity-everyauth": "~0.3.0",
+    "crafity-config": "~0.1.0",
+    "crafity-core": "~0.1.0",
+    "crafity-filesystem": "~0.1.0",
+    "crafity-jstest": "~0.1.0",
+    "crafity-logging": "~0.1.0",
+    "crafity-resources": "~0.1.0",
+    "connect-assetmanager": "0.0.28",
+    "crafity-gzip": "~0.1.0",
+    "connect-redis": "1.4.0",
+    "express": "2.5.1",
+    "http-proxy": "0.8.1",
+    "jade": "0.26.3",
+    "mime": "1.2.5",
+    "nib": "0.7.0",
+    "redis": "0.7.2",
+    "stylus": "0.19.3",
+    "validator": "0.4.9",
+    "util": "0.4.9",
+    "url": "0.7.9"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "./runtests"
+  }
 }
 

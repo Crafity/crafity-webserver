@@ -22,4 +22,4 @@ module.exports.fullname = 'crafity-webserver';
 /**
  * Framework version.
  */
-module.exports.version = '0.1.0';
+module.exports.version = '0.1.1';

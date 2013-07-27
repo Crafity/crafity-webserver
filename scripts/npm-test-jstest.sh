@@ -10,9 +10,9 @@ export ErrorCode=$?
 if [ "0" != "$ErrorCode" ]; then
 	export FailedTest=1
 fi
-#node ./test/crafity.process.test.js
-#export ErrorCode=$?
-#if [ "0" != "$ErrorCode" ]; then
-#	export FailedTest=1
-#fi
+node ./test/State.test.js
+export ErrorCode=$?
+if [ "0" != "$ErrorCode" ]; then
+	export FailedTest=1
+fi
 exit $FailedTest

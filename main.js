@@ -15,9 +15,9 @@ module.exports = require('./lib/webserver');
 /**
  * Framework name.
  */
-exports.fullname = 'crafity-webserver';
+module.exports.fullname = 'crafity-webserver';
 
 /**
  * Framework version.
  */
-exports.version = '0.1.0';
+module.exports.version = '0.1.0';

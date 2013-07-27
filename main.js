@@ -1,15 +1,17 @@
-/*jslint node:true, bitwise: true, unparam: true, maxerr: 50, white: true, nomen: true */
+/*jslint node:true, unparam: true, maxerr: 50, white: true */
+"use strict";
 /*!
  * crafity-webserver - Generic Webserver Configuration
- * Copyright(c) 2011 Crafity
- * Copyright(c) 2011 Bart Riemens
- * Copyright(c) 2012 Galina Slavova
+ * Copyright(c) 2010-2013 Crafity
+ * Copyright(c) 2010-2013 Bart Riemens
+ * Copyright(c) 2010-2013 Galina Slavova
  * MIT Licensed
  */
 
 /**
  * Module dependencies.
  */
+
 module.exports = require('./lib/webserver');
 
 /**

@@ -2,9 +2,9 @@
   "name": "crafity-webserver",
   "description": "Generic Webserver Configuration",
   "version": "0.1.0",
-  "author": "Bart Riemens <briemens@crafity.com>",
+  "author": "Galina Slavova <galina@crafity.com> and Bart Riemens <briemens@crafity.com>",
   "homepage": "https://github.com/Crafity/crafity-webserver#readme",
-  "keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus"],
+  "keywords": ["crafity", "webserver", "http", "express", "configuration", "jade", "stylus", "gzip", "static", "fileserver", "config"],
   "maintainers": [
     {
       "name": "Galina Slavova",

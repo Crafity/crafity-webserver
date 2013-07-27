@@ -1,29 +1,22 @@
+/*jslint node:true, white:true, stupid: true */
+"use strict";
 /*!
  * crafity.process.test - Filesystem tests
- * Copyright(c) 2011 Crafity
- * Copyright(c) 2012 Galina Slavova
- * Copyright(c) 2012 Bart Riemens
+ * Copyright(c) 2010-2013 Crafity
+ * Copyright(c) 2010-2013 Galina Slavova
+ * Copyright(c) 2010-2013 Bart Riemens
  * MIT Licensed
  */
 
 /**
  * Test dependencies.
  */
-var jstest = require('crafity-jstest')
+var jstest = require('crafity-jstest').createContext("Crafity Webserver Tests")
   , assert = jstest.assert
-  , context = jstest.createContext()
-  , fs = require('crafity-filesystem')
   , main = require('../main.js')
   ;
 
 /**
- * The tests
- */
-var tests = {
-
-};
-
-/**
  * Run the tests
  */
-//context.run(tests);
+jstest.run({});

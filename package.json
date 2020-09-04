@@ -57,7 +57,7 @@
     "crafity-gzip": "~0.1.0",
     "connect-redis": "~1.4.0",
     "express": "~2.5",
-    "http-proxy": "~0.8.1",
+    "http-proxy": "~1.18.1",
     "jade": "~0.26",
     "mime": "~1.2.5",
     "nib": "~0.7.0",
